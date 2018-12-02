@@ -26,7 +26,7 @@ Model training finished!
 Average Score over last 100 episodes: -109.6	Number of Episodes: 751
 ```
 
-![Training scores plot](https://github.com/mshik3/MountainCar-v0/blob/master/train_scores_plot.png)
+![Training scores plot](https://github.com/mshik3/MountainCar-v0/blob/master/images/train_scores_plot.png)
 
 ### Testing
 
@@ -44,8 +44,8 @@ Total Avg. Score over 100 consecutive iterations : -102.84
 Agent finished test within expected reward boundary! Environment is solved.
 ```
 
-![Testing scores plot](https://github.com/mshik3/MountainCar-v0/blob/master/test_scores_plot.png)
-![Testing gif](https://github.com/mshik3/MountainCar-v0/blob/master/output_dp0mWw.gif)
+![Testing scores plot](https://github.com/mshik3/MountainCar-v0/blob/master/images/test_scores_plot.png)
+![Testing gif](https://github.com/mshik3/MountainCar-v0/blob/master/images/output_dp0mWw.gif)
 
 ## Learning
 This was my first project with Deep Q Learning after my Udacity course so this was very interesting to model and plan. I took some inspirations from github user "[harshitandro](https://github.com/harshitandro/Deep-Q-Network)" to start out and get my feet wet. 
