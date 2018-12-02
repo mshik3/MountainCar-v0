@@ -3,7 +3,9 @@ Solution to the OpenAI Gym environment of the MountainCar through Deep Q-Learnin
 
 ## Background
 OpenAI offers a toolkit for practicing and implementing Deep Q-Learning algorithms. (http://gym.openai.com/)
-This is my implementation of the MountainCar-v0 environment. 
+This is my implementation of the MountainCar-v0 environment. This environment has a small cart stuck in a trench. The cart needs to get to the flag on top of the crest to gain points and the faster it learns to do this, it gains more points. The cart can go left and right, with any variation of speed. Once the cart performs an action, the environment provides it a reward and tells it where the cart is at this point. 
+
+This model basically learns to randomly perform actions until it recognizes the actions that give it a higher score. You can watch it learn what to do by watching the score for each episode. 
 
 ## Results
 Results can be found in train_results.log and test_results.log for the train and test, respectively.
